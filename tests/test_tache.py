@@ -1,4 +1,5 @@
-from src.tache import Tache
+from taskmanager.tache import Tache
+
 
 def test_tache_creation():
     t = Tache("A", 3, [])
